@@ -8,6 +8,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 import com.model.User;
 import com.service.UserServiceI;
 
+ 
 public class TestMybatis {
 	private ApplicationContext applicationContext;
 	private UserServiceI userService;

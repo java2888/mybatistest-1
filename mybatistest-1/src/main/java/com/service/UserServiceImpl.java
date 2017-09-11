@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 import com.dao.UserMapper;
 import com.model.User;
 
-@Service("service")
+@Service("userService")
 public class UserServiceImpl implements UserServiceI {
 
 	private UserMapper userMapper;
