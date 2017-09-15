@@ -9,7 +9,7 @@ import com.model.User;
 import com.service.UserServiceI;
 
  
-public class TestMybatis {
+/*public class TestMybatis {
 	private ApplicationContext applicationContext;
 	private UserServiceI userService;
 	
@@ -30,4 +30,4 @@ public class TestMybatis {
 		
 	}
 	
-}
+}*/

@@ -109,8 +109,34 @@
 		</dependency>
 
 	</dependencies>
+
+
+
+
 	<build>
 		<finalName>mytest</finalName>
+
+		<resources>
+			<resource>
+				<directory>src/main/resources</directory>
+				<includes>
+					<include>/*.properties</include>
+					<include>/*.xml</include>
+					<include>/*.tld</include>
+				</includes>
+				<filtering>false</filtering>
+			</resource>
+
+			<resource>
+				<directory>src/main/java</directory>
+				<includes>
+					<include>com/mapping/*.xml</include>
+					<include>com/mapping/*.tld</include>
+				</includes>
+				<filtering>false</filtering>
+			</resource>
+		</resources>
+
 		<plugins>
 			<!-- 解决maven test命令时console出现中文乱码乱码 -->
 			<plugin>
