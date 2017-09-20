@@ -15,11 +15,14 @@
 		<tr>
 			<th>ID</th>
 			<th>username</th>
+			<th>备注</th>
 		</tr>
 		<c:forEach items="${listAllUser}" var="li">
 			<tr>
-				<th>${li.userid}</th>
-				<th>${li.username}</th>
+				<td>${li.userid}</td>
+				<td>${li.username}</td>
+				<td><a href="/mytest/showUser.do?id=${li.userid}" >显示信息</a></td>
+				 
 			</tr>
 		</c:forEach>
 	</table>

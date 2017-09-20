@@ -11,5 +11,7 @@
 <body>
 	${user.username}
 	<h2>${user.username}</h2>
+	<p></p>
+	<a href="#" onclick="javascript:history.go(-1);">返回上一页</a>
 </body>
 </html>
